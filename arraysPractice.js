@@ -5,8 +5,10 @@ var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
   //Code Here
-
-
+var first = function(arr) {
+  return arr[0];
+}
+first(arr);
 //Next problem
 
 
@@ -16,8 +18,10 @@ var arr = [40,50,60];
 
 
   //Code Here
-
-
+var last = function(arr) {
+  return arr[arr.length - 1];
+}
+last(arr);
 //Next Problem
 
 
